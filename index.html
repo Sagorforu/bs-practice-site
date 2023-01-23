@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Practice Site</title>
+  <link rel="stylesheet" href="/styles/bs-practice-site.css">
+  <!-- Bootstrap file -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/68c3d30d72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <div class="container-fluid">
+          <h1 class="fw-bold display-3 text-danger">Reve<span class="text-primary">al</span></h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Service
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <section>
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="banner-img-1 d-flex justify-content-center align-items-center">
+              <div class="text-center">
+                <h1 class="fw-bold display-2 text-danger">Making <span
+                    class="text-primary text-decoration-underline">your ideas</span> <br> happen!</h1>
+                <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae animi
+                  dolorum maxime cumque.</p>
+                <button class="btn btn-danger">Get Started</button>
+                <button class="btn btn-primary">Our Projects</button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-img-2">
+              <div class="banner-img-2 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                  <h1 class="fw-bold display-2 text-danger">Making <span
+                      class="text-primary text-decoration-underline">your ideas</span> <br> happen!</h1>
+                  <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae animi
+                    dolorum maxime cumque.</p>
+                  <button class="btn btn-danger">Get Started</button>
+                  <button class="btn btn-primary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="banner-img-3">
+              <div class="banner-img-3 d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                  <h1 class="fw-bold display-2 text-danger">Making <span
+                      class="text-primary text-decoration-underline">your ideas</span> <br> happen!</h1>
+                  <p class="text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae animi
+                    dolorum maxime cumque.</p>
+                  <button class="btn btn-danger">Get Started</button>
+                  <button class="btn btn-primary">Our Projects</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon text-bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon text-bg-dark" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="container my-5 py-5">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6">
+          <img class=" img-fluid" src="./image/about-img.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+          <h1 class="text-danger fw-semibold">Who we are</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, expedita cumque. Eveniet rem
+            consectetur, deleniti praesentium similique porro molestiae exercitationem.</p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, provident.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, ab quos. Quidem tempora cumque et
+              aperiam, voluptatem impedit voluptate consequatur, mollitia asperiores ipsum optio placeat.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- Service -->
+    <section class="container">
+      <h1 class="text-danger fw-bold">Service</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptas quam, dolorum expedita doloremque
+        obcaecati culpa porro quos nobis tempora perspiciatis, nihil exercitationem impedit rem sit corrupti suscipit.
+        Unde ipsum dolore autem quae laudantium fuga enim accusantium quos commodi, itaque voluptas sapiente cumque
+        quibusdam quod aspernatur velit error amet tempora!</p>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="d-flex align-items-center shadow-lg p-3 my-4">
+            <i class="fa-solid fa-brain fa-3x text-primary"></i>
+            <div class="ms-3">
+              <h2 class="text-primary">Digital Transforming</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis ex iste fugiat minima odio
+                molestiae, corrupti repudiandae dignissimos ratione a placeat debitis doloremque quidem at esse eius
+                possimus labore!</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center shadow-lg p-3 my-4">
+            <i class="fa-solid fa-microchip fa-3x text-primary"></i>
+            <div class="ms-3">
+              <h2 class="text-primary">It Infrastructure</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis ex iste fugiat minima odio
+                molestiae, corrupti repudiandae dignissimos ratione a placeat debitis doloremque quidem at esse eius
+                possimus labore!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="d-flex align-items-center shadow-lg p-3 my-4">
+            <i class="fa-solid fa-swatchbook fa-3x text-primary"></i>
+            <div class="ms-3">
+              <h2 class="text-primary">UI/UX Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis ex iste fugiat minima odio molestiae, corrupti repudiandae dignissimos ratione a placeat debitis doloremque quidem at esse eius possimus labore!</p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center shadow-lg p-3 my-4">
+            <i class="fa-solid fa-magnifying-glass-chart fa-3x text-primary"></i>
+            <div class="ms-3">
+              <h2 class="text-primary">Business Analysis</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nobis ex iste fugiat minima odio
+                molestiae, corrupti repudiandae dignissimos ratione a placeat debitis doloremque quidem at esse eius
+                possimus labore!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- clients section -->
+    <section class="container my-5">
+      <h2 class="text-danger fw-bold">Clients</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam iste ea dolore cupiditate, veritatis nulla corporis nostrum magni dolorem rerum ex, voluptate facere velit. Illum suscipit, natus repellat vero consectetur dolor, voluptatem at laudantium vitae culpa eum! Quia, praesentium pariatur!</p>
+      <div class="d-flex justify-content-between flex-wrap">
+        <img class="clients-logo-icon" src="./image/clients/client-1.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-2.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-3.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-4.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-5.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-6.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-7.png" alt="">
+        <img class="clients-logo-icon" src="./image/clients/client-8.png" alt="">
+      </div>
+    </section>
+    <!-- call to action -->
+    <section class="bg-primary my-5">
+      <div class="container py-5 text-white">
+        <h1>Call to Action</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis vero quidem id iusto sit cum architecto facere laudantium nemo aliquam et, aperiam voluptate repellendus possimus labore iste minus maiores natus perspiciatis recusandae eius? Illo molestias, aperiam voluptatum adipisci aut culpa.</p>
+        <button class="btn btn-outline-light">Call to Action</button>
+      </div>
+    </section>
+    <!-- our team section -->
+    <section class="container">
+      <h2 class="text-danger fw-bold">Our Team</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, praesentium? Maiores quas quam, alias nam rem illo veritatis asperiores omnis et commodi eius voluptatum, necessitatibus culpa laborum ex nemo quo.</p>
+      <div class="d-flex flex-wrap justify-content-between">
+        <div class="card text-center mb-3" style="width: 16rem;">
+          <div class=" w-50 mx-auto pt-4">
+            <img src="./image/team-1.jpg" class="card-img-top border border-3 border-danger rounded-5 rounded-circle " alt="...">
+          </div>
+          <div class="card-body">
+            <h4 class="text-danger fw-bolder">Walter White</h4>
+            <h6 class="fst-italic pb-3">Cheif Executive Officer</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor, deleniti doloremque delectus.</p>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 16rem;">
+          <div class=" w-50 mx-auto pt-4">
+            <img src="./image/team-2.jpg" class="card-img-top border border-3 border-danger rounded-5 rounded-circle " alt="...">
+          </div>
+          <div class="card-body">
+            <h4 class="text-danger fw-bolder">Sarah Jhinson</h4>
+            <h6 class="fst-italic pb-3">Product Manager</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor, deleniti doloremque delectus.</p>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 16rem;">
+          <div class=" w-50 mx-auto pt-4">
+            <img src="./image/team-3.jpg" class="card-img-top border border-3 border-danger rounded-5 rounded-circle " alt="...">
+          </div>
+          <div class="card-body">
+            <h4 class="text-danger fw-bolder">William Anderson</h4>
+            <h6 class="fst-italic pb-3">CTO</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor, deleniti doloremque delectus.</p>
+          </div>
+        </div>
+        <div class="card text-center mb-3" style="width: 16rem;">
+          <div class=" w-50 mx-auto pt-4">
+            <img src="./image/team-4.jpg" class="card-img-top border border-3 border-danger rounded-5 rounded-circle " alt="...">
+          </div>
+          <div class="card-body">
+            <h4 class="text-danger fw-bolder">Amanda Jepson</h4>
+            <h6 class="fst-italic pb-3">Accountant</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor, deleniti doloremque delectus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact us section -->
+    <section class="container my-5">
+      <h2 class="text-danger fw-bold">Contact Us</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, praesentium? Maiores quas quam, alias nam rem illo veritatis asperiores omnis et commodi eius voluptatum, necessitatibus culpa laborum ex nemo quo.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center my-3">
+            <i class="fa-solid fa-phone fa-2x  text-primary"></i>
+            <div class="ms-3">
+              <h5 class="text-primary">Phone Number</h5>
+              <h6>+4435518745</h6>
+            </div>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <i class="fa-solid fa-envelope fa-2x  text-primary"></i>
+            <div class="ms-3">
+              <h5 class="text-primary">Email</h5>
+              <h6>info@gmail.com</h6>
+            </div>
+          </div>
+          <div class="d-flex align-items-center my-3">
+            <i class="fa-solid fa-location-dot fa-2x  text-primary"></i>
+            <div class="ms-3">
+              <h5 class="text-primary">Address</h5>
+              <h6>Adam Street, New York</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col my-3">
+              <input class="form-control" type="text" name="" id="" placeholder="Your Name">
+            </div>
+            <div class="col my-3">
+              <input class="form-control" type="text" name="" id="" placeholder="Your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <input class="form-control" type="text" name="" id="" placeholder="Subject">
+              <textarea name="" class="form-control my-3" placeholder="Your Message" id="" cols="30" rows="5"></textarea>
+            </div>
+          </div>
+          <button class="btn btn-primary">Send Message</button>
+        </div>
+      </div>
+    </section>
+  </main>
+     <!-- Footer section -->
+     <footer class="mt-5 bg-primary py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h2 class="fw-bold text-white display-4">Reveal</h2>
+            <p class="text-white">A108 Adam Street, New York, NY <br>535022, United States</p>
+            <p class="text-white">Phone: +0640984184</p>
+            <p class="text-white">Email: info@gmail.com</p>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-white">Useful Links</h5>
+            <p> <a class="text-white text-decoration-none" href="">Home</a></p>
+            <p> <a class="text-white text-decoration-none" href="">About</a></p>
+            <p> <a class="text-white text-decoration-none" href="">Contact us</a></p>
+            <p> <a class="text-white text-decoration-none" href="">Login</a></p>
+          </div>
+          <div class="col-md-2">
+            <h5 class="text-white">Our Services</h5>
+            <p> <a class="text-white text-decoration-none" href="">It Services</a></p>
+            <p> <a class="text-white text-decoration-none" href="">UX/UI design</a></p>
+            <p> <a class="text-white text-decoration-none" href="">Web development</a></p>
+            <p> <a class="text-white text-decoration-none" href="">App development</a></p>
+          </div>
+          <div class="col-md-5">
+            <h5 class="text-white">Join our Newsletter</h5>
+            <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam atque corrupti iure iusto similique error?</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Enter your email" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-info text-white px-3" type="button" id="button-addon2">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-center text-white pt-5">&copy; Copyright Reveal. All rights reserved</p>
+      </div>
+     </footer>
+  <!-- js file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>
